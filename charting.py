@@ -72,7 +72,7 @@ def folium_map(df,tiles):
         marker = folium.Marker(location = (df.iloc[i]['latitude'],
                                         df.iloc[i]['longitude']),
                             popup = df.iloc[i]['Name'],
-                            icon=folium.features.CustomIcon('https://i.imgur.com/HxrlEwn.png',icon_size=(40,40))).add_to(marker_cluster)
+                            icon=folium.features.CustomIcon('images/logo_folium.png',icon_size=(40,40))).add_to(marker_cluster)
     
     site_map.add_child(marker_cluster)
 
