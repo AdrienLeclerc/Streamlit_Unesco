@@ -3,3 +3,4 @@ pandas
 plotly
 folium
 streamlit_folium
+click==8.0.4
